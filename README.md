@@ -1,6 +1,6 @@
-# Baseball, une monographie de style
+# Le vêtement de baseball : casquette, blouson teddy, tenues
 
-Ce que le baseball a donné au vêtement de tous les jours une fois les logos retirés : des formes, des matières, et un lookbook de tenues réelles.
+Ce que le baseball a laissé dans la garde-robe une fois les logos retirés : la casquette, le blouson teddy, la flanelle, et cent une tenues démontées.
 
 Site : https://florianzilliox.github.io/baseball/
 
