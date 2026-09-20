@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light">
-<title>Baseball, une monographie de style</title>
+<title>Le vêtement de baseball : casquette, blouson teddy, tenues</title>
 <meta name="description" content="Ce que le baseball a laissé dans la garde-robe une fois les logos retirés : la casquette, le blouson teddy, la flanelle, et cent une tenues démontées.">
 <link rel="canonical" href="https://florianzilliox.github.io/baseball/">
 <meta property="og:title" content="Le vêtement de baseball : casquette, blouson teddy, tenues">
@@ -277,6 +277,12 @@ h4{font-family:var(--college);font-size:1.02rem;letter-spacing:.02em;margin:0 0 
 .chapitre.sombre .degre[data-d="4"]{color:#9FC2A4}
 .chapitre.sombre .look .degre[data-d="3"],.chapitre.sombre .tenue .degre[data-d="3"]{color:var(--terre)}
 .chapitre.sombre .look .degre[data-d="4"],.chapitre.sombre .tenue .degre[data-d="4"]{color:var(--gazon)}
+
+/* Le sous-titre du chapitre entre dans le h2 : il dit le sujet, là où « Le jeu » ou
+   « Composer » ne disent rien à personne. Il garde son dessin propre, sous le titre. */
+.ouverture h2 .sous-chapitre{display:block;font-family:var(--sans);font-weight:400;
+  font-size:clamp(.95rem,2vw,1.15rem);line-height:1.35;letter-spacing:0;text-transform:none;
+  margin-top:.5em;max-width:34rem;opacity:.78}
 
 /* ——— Fiches numérotées ——— */
 .fiches{list-style:none;padding:0;margin:1.8rem 0;display:grid;gap:clamp(1.2rem,2.4vw,2rem);
@@ -794,7 +800,7 @@ figure.seule figcaption{font-family:var(--sans);font-size:.8rem;line-height:1.5;
 <header class="ouverture">
   <p class="script">Chapitre premier</p>
   <p class="grand-num">01</p>
-  <h2>Le jeu</h2>
+  <h2>Le jeu<span class="sous-chapitre">Pourquoi un sport américain a habillé ceux qui n’y jouent pas</span></h2>
   <p class="chapeau">Aucun sport n’a laissé autant de vêtements dans les armoires de gens qui
   n’y ont jamais joué. Avant de regarder lesquels, il faut comprendre pourquoi.</p>
 </header>
@@ -897,7 +903,7 @@ figure.seule figcaption{font-family:var(--sans);font-size:.8rem;line-height:1.5;
 <header class="ouverture">
   <p class="script">Chapitre deux</p>
   <p class="grand-num">02</p>
-  <h2>Dix-huit transpositions</h2>
+  <h2>Dix-huit transpositions<span class="sous-chapitre">Traduire un fait du terrain en règle de garde-robe</span></h2>
   <p class="chapeau">Chacune part d’un fait du terrain, le traduit dans le vocabulaire de
   quelqu’un qui aime les vêtements, et s’arrête sur la conséquence pratique. C’est le cœur du
   livre : le reste n’en est que l’illustration.</p>
@@ -1675,7 +1681,7 @@ figure.seule figcaption{font-family:var(--sans);font-size:.8rem;line-height:1.5;
 <header class="ouverture">
   <p class="script">Chapitre trois</p>
   <p class="grand-num">03</p>
-  <h2>La casquette</h2>
+  <h2>La casquette<span class="sous-chapitre">Anatomie, matières, usure et façons de la porter</span></h2>
   <p class="chapeau">De tout ce que le sport a produit au vingtième siècle, une seule coiffe a
   survécu hors des stades. Elle le doit à six morceaux de tissu bombés, à un raidisseur de crin de cheval
   et à un système de tailles emprunté aux chapeliers.</p>
@@ -2118,7 +2124,7 @@ Ballcap Blog, Seattle Met et Wikipédia. Les adresses exactes figurent au chapit
 <header class="ouverture">
   <p class="script">Chapitre quatre</p>
   <p class="grand-num">04</p>
-  <h2>Les pièces</h2>
+  <h2>Les pièces<span class="sous-chapitre">Le maillot, le blouson teddy, le sweat à capuche, le cuir de gant</span></h2>
   <p class="chapeau">Quatre vêtements et deux matières, pris un par un. Pour chacun : ce qui le
   définit sans son insigne, ce qu’il faut regarder avant d’acheter, et qui sait encore le
   fabriquer.</p>
@@ -2405,7 +2411,7 @@ chapitre Repères.</p>
 <header class="ouverture">
   <p class="script">Chapitre cinq</p>
   <p class="grand-num">05</p>
-  <h2>Composer</h2>
+  <h2>Composer<span class="sous-chapitre">L’ordre des décisions, les couleurs, les pièges du déguisement</span></h2>
   <p class="chapeau">Le chapitre deux a donné dix-huit règles. Il n’a pas dit dans quel ordre
   s’en servir, un matin, devant une armoire ouverte. Ce chapitre ne fait que cela : ce qui se
   décide en premier, ce qui attend son tour, et comment sortir d’une contradiction.</p>
@@ -2750,7 +2756,7 @@ Repères.</p>
 <header class="ouverture">
   <p class="script">Chapitre sept</p>
   <p class="grand-num">07</p>
-  <h2>D’où ça vient</h2>
+  <h2>D’où ça vient<span class="sous-chapitre">L’histoire du vêtement, les images, et ce que le Japon en a fait</span></h2>
   <p class="chapeau">Les dix-huit transpositions ont déjà tiré de cette histoire ce qui sert à
   s’habiller. Ce chapitre donne le récit qui relie les morceaux, et trois choses qu’on ne trouve
   nulle part ailleurs dans le livre : ceux qui ont fixé l’image du baseball, l’arbitre en
@@ -2943,7 +2949,7 @@ Ebbets Field Flannels et Wikipédia. Les adresses exactes figurent au chapitre R
 <header class="ouverture">
   <p class="script">Pour finir</p>
   <p class="grand-num">08</p>
-  <h2>Repères</h2>
+  <h2>Repères<span class="sous-chapitre">Le lexique du vêtement de baseball et les sources</span></h2>
   <p class="chapeau">Les mots dont ce livre s’est servi, et l’endroit exact d’où vient chacun des faits qu’il avance.</p>
 </header>
 <div class="corps">
